@@ -7,3 +7,15 @@
     width: 200px;
     height:400px;
 }
+
+.flex-container {
+    display: flex;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: peachpuff;
+    border: 1px solid brown;
+    height: 100px;
+    flex: 1;
+  }
